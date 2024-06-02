@@ -1,6 +1,6 @@
 import "./page.css";
 import Header from "../components/Header";
-import Hero from "../components/hero";
+import Hero from "../components/hero
 import HomeBlog from "../components/HomeBlog";
 import Featured from "../components/Featuredworks";
 import Footer from "../components/Footer"
