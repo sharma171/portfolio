@@ -32,16 +32,17 @@ const Header = () => {
     const [itemactive, setItemActive] = useState("0");
     function handleItemClick(item) {
         setItemActive(item);
+        console.log(itemactive );
     }
     return(
         <header>
             <nav className="nav">
-                <a href="">
+                <a href="/">
                     
                 </a>
                 <div className="navMenu">
                     {navLink.map((item, index) => (
-                        <a href={item.link} className={`navLink ${itemactive == index ? "active" :""}`} onClick={() => handleItemClick(`${index}`)} key={index}>{item.name}</a>
+                        <a href={item.link} className="navLink" onClick={() => handleItemClick(`${item.key}`)} key={index}>{item.name}</a>
                     ))}
                 </div>
                 <div className="mob-menu">
