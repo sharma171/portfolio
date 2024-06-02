@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.hero .hero-lhs {
+  width: 70%;
+}
+.hero .hero-lhs .hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero .hero-lhs .hero-cta {
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+.hero .hero-rhs {
+  width: 30%;
+}

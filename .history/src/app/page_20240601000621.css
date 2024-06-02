@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.hero .hero-lhs {
+  width: 70%;
+}
+.hero .hero-lhs .hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+.hero .hero-lhs .hero-cta .main-head {
+  font-size: 2.75rem;
+  line-height: 3.75rem;
+}
+.hero .hero-rhs {
+  width: 30%;
+}
